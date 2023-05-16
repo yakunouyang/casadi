@@ -8,6 +8,7 @@ endif()
 
 if(WITH_IPOPT)
   add_subdirectory(ipopt)
+  add_subdirectory(sipopt)
 endif()
 
 if(WITH_BONMIN)
